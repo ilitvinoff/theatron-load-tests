@@ -17,7 +17,9 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     if BASE_URL is None:
-        logger.error(f"Base URL is not defined, check if you set valid value to BASE_URL param. current base_url value: {BASE_URL}")
+        logger.error(
+            f"Base URL is not defined, check if you set valid value to BASE_URL param. "
+            f"Current base_url value: {BASE_URL}")
 
     else:
         settings = invokust.create_settings(
