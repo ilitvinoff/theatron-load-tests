@@ -1,0 +1,8 @@
+.idea/
+venv/
+__pycache__/
+load_scenarious/__pycache__/
+common/__pycache__/
+.env
+log.txt
+test_users/
